@@ -1,0 +1,101 @@
+h1,h2,h3,h4,h5,h6,p,a,img,ul,li,body,dl,dt,dd,ol,input,figure,figcaption{
+    padding:0;
+    margin:0;
+    }
+html{
+    font-size: 62.5%;
+    color: #000;
+    background: #EAEDEF;
+    }
+body{
+    font-size: 1.3rem;
+    font-family: "Microsoft YaHei" !important;
+    }
+a{
+    text-decoration:none;
+    }
+ul{
+    list-style: none;
+    }
+.el-select  {
+    input::-webkit-input-placeholder {
+      color: black;
+    }
+    .el-input__inner {
+      font-size: 1.3rem;
+      color: black;
+    }
+}
+ .el-select-dropdown__empty{
+      color: black
+}
+.el-table{
+    border:1px solid #c2c2c2;
+    color: #222
+}
+.el-table th{
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 2px solid #c2c2c2 !important;
+}
+.el-table td{
+    // padding: 2px 0;
+}
+.el-table--border {
+    // border-color:#c2c2c2;
+    th{
+        border-right: 0 ;
+        padding: 12px 0;
+    }
+    td{
+        padding: 0;
+        border-right: 0 ;
+        border-bottom-color: #c2c2c2;
+        .cell{
+            padding: 6px 10px;
+            line-height: 1.7rem;
+            .el-button{
+                padding: 4px 10px;
+                span{
+                font-size: 13px;
+                color: #222
+                }
+            }
+        }
+    }
+}
+.el-table::after{
+    content: none
+}
+.el-button{
+    padding: 5px 15px;
+    text-align: center;
+    span{
+    font-size: 13px;
+    color: #222
+    }
+}
+.el-table__body td{
+    text-align: left;
+}
+.el-tabs--border-card{
+    box-shadow: none;
+    -webkit-box-shadow:none
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+    background: #7AB9EA
+}
+.el-pagination.is-background .el-pager li{
+    background: #fff;
+}
+.el-pagination.is-background .btn-prev, .el-pagination.is-background .btn-next{
+    min-width: 25px;
+    background: #fff;
+}
+.el-drawer__header{
+    margin-bottom: 0;
+    padding: 10px 20px;
+    background: #F5F7FA
+  }
+  
